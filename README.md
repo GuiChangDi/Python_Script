@@ -1,2 +1,2 @@
-# Python_Train
-Personal Python Train
+# Python_Script
+Personal Python Script Train
