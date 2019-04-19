@@ -42,6 +42,24 @@ def binarySearch(data,num,left = 0,right = None):
         else:
             binarySearch(data,num,left,middle)
 
+class Bird:
+    def __init__(self):
+        self.hungry = True
+    def eat(self):
+        if self.hungry
+            print('Aaaaah......')
+        else:
+            print('No,I am not hungry')
+
+class SongBird(Bird):
+    def __init__(self):
+        super().__init__(self)
+        self.sound = 'Squawk'
+    def sing(self):
+        print(self.sound)
+    
+    
+
 seq = [34,67,8,123,4,100,95]
 seq.sort()
 a = binarySearch(seq,34)
