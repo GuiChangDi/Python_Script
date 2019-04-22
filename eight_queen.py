@@ -20,8 +20,9 @@ def prettyprint(Solution):
     for pos in Solution:
         print(line(pos))
 
-import random
-a = input('Input the num:')
-prettyprint(random.choice(list(queens(a))))
-print('Total results count = '+ str(len(list(queens(a)))))
+if __name__ == '__main__':
+    import random
+    a = int(input('Input the num:'))
+    prettyprint(random.choice(list(queens(a))))
+    print('Total results count = '+ str(len(list(queens(a)))))
     
