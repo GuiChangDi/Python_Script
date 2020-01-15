@@ -1,0 +1,3 @@
+# ignore vscode configure and windows excute file
+.vscode/
+*.exe
