@@ -58,8 +58,25 @@ class SongBird(Bird):
     def sing(self):
         print(self.sound)
 
+#Section 4.1
+def Lamda(list):
+    list[len(list)-1] = 'and '+str(list[len(list)-1])
+    return ','.join(list)
+#Section 4.2
+grid = [['.', '.', '.', '.', '.', '.'],
+        ['.', '0', '0', '.', '.', '.'],
+        ['0', '0', '0', '0', '.', '.'],
+        ['0', '0', '0', '0', '0', '.'],
+        ['.', '0', '0', '0', '0', '0'],
+        ['0', '0', '0', '0', '0', '.'],
+        ['0', '0', '0', '0', '.', '.'],
+        ['.', '0', '0', '.', '.', '.'],
+        ['.', '.', '.', '.', '.', '.']]
+def Lamda1(list):
+    for i in range(len(list[0])):
+        for j in range(len(list)):
+            print(list[j][i], end='')
+        print('')
+
 if __name__ == '__main__':
-    seq = [34,67,8,123,4,100,95]
-    seq.sort()
-    a = binarySearch(seq,34)
-    print(a)
+    Lamda1(grid)
