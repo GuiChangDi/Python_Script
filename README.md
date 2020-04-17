@@ -1,2 +1,2 @@
 # Python_Script
-Personal Python Script Train
+Just some simple python scripts
