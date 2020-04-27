@@ -7,3 +7,4 @@
 6.读写文件:os.path:join(),getcwd(),makedirs(),abspath(),isabs(),basename(), dirname(),listdir(),exists(),isdir(),isfile().
   open() w写模式从头开始,a添加模式在末尾添加文本, read(),readlines(), shelve module
 7.组织文件：shutil模块，chdir(),shutil.copy(),move().os.unlink(),rmdir(),rmtree().send2trash模块.zipfile模块
+8.抓取信息：webbrowser模块，requests模块.BeautifulSoup模块解析HTML
